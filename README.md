@@ -26,7 +26,7 @@ Projeto desenvolvido para o evento Be Dev em parceria da Kenzie Academy com a Be
   - /js
     - script.js
 
-## Layout
+## Layout FIGMA
 
 - [Layout Be Dev => Desenvolvendo landing page Bemol](https://www.figma.com/file/IldzMvyNvbDonKt2M4y8Aw/Projeto-Bemol?node-id=0%3A1)
 
