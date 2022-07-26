@@ -44,3 +44,5 @@ Projeto desenvolvido para o evento Be Dev em parceria da Kenzie Academy com a Be
 - [Coolors](https://coolors.co/palettes/trending)
 - [Paletton](https://paletton.com/)
 - [MDN lista de eventos](https://developer.mozilla.org/en-US/docs/Web/Events)
+
+
