@@ -1,0 +1,52 @@
+h1 {
+    background-color: blueviolet;
+    font-family: 'Press Start 2P', cursive;
+    color: aliceblue;
+    font-size: 50px;
+}
+
+h3 {
+
+}
+
+#paragrafo1 {
+    background-color: brown;
+}
+
+.fonteRosa {
+    color: pink;
+}
+
+#xCaboquinho {
+    background-color: cadetblue;
+    width: 150px;
+    padding: 10px;
+    border: 10px dotted rosybrown;
+    /* margin: 50px; */
+}
+
+div {
+    /* height: 100px; */
+    background-color: yellowgreen;
+    margin: 5px;
+    border-radius: 20px 0 20px 0;
+}
+
+/* span {
+    background-color: green;
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+}
+
+a {
+    background-color: green;
+} */
+
+#container {
+    height: 100px;
+    background-color: grey;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
