@@ -1,0 +1,153 @@
+/* POSICIONAMENTO */
+
+.flexRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* HEADER */
+
+header {
+  background-color: #4864c0;
+  max-height: 200px;
+}
+
+.logoBemol {
+  max-width: 400px;
+  max-height: 150px;
+  width: auto;
+  height: auto;
+  margin: 40px 0px 40px 140px;
+}
+
+h1 {
+  color: #1d2f8a;
+  font-size: 61px;
+  font-weight: 700;
+  line-height: 67px;
+  width: 468px;
+  height: 201px;
+  margin-bottom: 20px;
+}
+
+/* PRIMEIRA SECAO */
+.firstSection {
+  margin-top: 30px;
+}
+
+.firstSection p {
+  height: 60px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #1d2f8a;
+  width: 396px;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.linkAbrirConta {
+  display: inline-block;
+  width: 336px;
+  border-radius: 10px;
+  padding: 16px 24px 16px 24px;
+  background-color: #ffc04a;
+  color: #1d2f8a;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 130%;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* SEGUNDA SECAO */
+
+.secondSection {
+  max-width: 1200px;
+  max-height: 699px;
+  margin: auto;
+}
+
+.secondSection h6 {
+  width: 500px;
+  color: #1d2f8a;
+  margin-left: 45px;
+}
+
+.reginaImg {
+  height: 570px;
+  width: 570px;
+}
+
+.cardVantagens {
+  flex-wrap: wrap;
+  max-width: 450px;
+  max-height: 655px;
+  justify-content: space-between;
+}
+
+.miniCard {
+  width: 220px;
+  margin: 5px auto;
+}
+
+.miniCard span {
+  display: block;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
+  max-width: 218px;
+  height: 52px;
+}
+
+/* TERCEIRA SECAO */
+
+.thirdSection {
+  background-color: #4864c0;
+  height: 461px;
+  width: 1120px;
+  border-radius: 70px;
+  margin: auto;
+  margin-bottom: 60px;
+}
+
+.thirdSectionTitle {
+  margin: 0 auto;
+  height: 407px;
+  width: 353px;
+}
+
+.thirdSectionDescription {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.thirdSectionDescription p {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+
+  text-align: left;
+  margin-bottom: 60px;
+}

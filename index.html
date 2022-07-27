@@ -1,138 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/styles/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/styles/styles.css" />
+
     <title>Projeto Be/Dev</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <img 
-            src="./src/img/ContaBemol-b 1.png" 
-            alt="logo Conta Bemol Cabeçalho">
+      <img
+        class="logoBemol"
+        src="./src/img/ContaBemol-b 1.png"
+        alt="logo Conta Bemol Cabeçalho"
+      />
     </header>
     <main>
-       <div>
+      <div>
         <!-- PRIMEIRA SEÇÃO -->
-            <section>
-                <div>
-                    <h1>Chegou a conta digital da Bemol</h1>
-                    <p>Pague parcelas Bemol pelo celular, deposite nas Lojas Bemol, Bemol Farma, Mercado Bemol e acumule muitos pontos de bônus!</p>
-                    <a href="https://www.bemol.com.br/contabemol" target="_blank">Abra sua Conta Bemol</a>
-                </div>
+        <section class="firstSection flexRow">
+          <div>
+            <h1>Chegou a conta digital da Bemol</h1>
+            <p>
+              Pague parcelas Bemol pelo celular, deposite nas Lojas Bemol, Bemol
+              Farma, Mercado Bemol e acumule muitos pontos de bônus!
+            </p>
+            <a
+              class="linkAbrirConta"
+              href="https://www.bemol.com.br/contabemol"
+              target="_blank"
+              >Abra sua Conta Bemol</a
+            >
+          </div>
 
-                <div>
-                    <img 
-                        src="./src/img/Phone-Spotlight-Desktop 1.png"
-                        alt="imagem de um telefone">
-                </div>
-            </section>
-        
+          <div>
+            <img
+              src="./src/img/Phone-Spotlight-Desktop 1.png"
+              alt="imagem de um telefone"
+            />
+          </div>
+        </section>
+
         <!-- SEGUNDA SEÇÃO -->
-            <section>
-                <h6>
-                    A Conta Bemol é a conta digital que traz benefícios exclusivos para o
-                    cliente Bemol.
-                </h6>
-                <div>
-                    <img 
-                        src="./src/img/Regina1.png"
-                        alt="Dona Regina mexendo no celular"
-                    >
-                    <div>
-                        <div>
-                            <img src="./src/img/Vantagens01.png" alt="estrelinha bemol">
-                            <span>Acúmulo de pontos de bônus</span>
-                        </div>
-                        <div>
-                            <img src="./src/img/Vantagens02.png" alt="ícone usuário">
-                            <span>Atendimento nas Lojas</span>
-                        </div>
-                        <div>
-                            <img src="./src/img/Vantagens03.png" alt="ícone Bemol" />
-                            <span>Pagamento de parcelas Bemol</span>
-                        </div>
-                        <div>
-                            <img src="./src/img/Vantagens04.png" alt="Banco Bemol" />
-                            <span>Depósito nas Lojas Bemol e Bemol Farma</span>
-                        </div>
-                        <div>
-                            <img src="./src/img/Vantagens05.png" alt="imagem que simboliza vazio" />
-                            <span>Zero anuidade</span>
-                        </div>
-                        <div>
-                            <img src="./src/img/Vantagens06.png" alt="ícone Pix" />
-                            <span>Tranferencias via PIX</span>
-                        </div>
-                    </div>
-                </div>
-            </section>
+        <section class="secondSection">
+          <h6>
+            A Conta Bemol é a conta digital que traz benefícios exclusivos para
+            o cliente Bemol.
+          </h6>
+          <div class="flexRow">
+            <img
+              class="reginaImg"
+              src="./src/img/Regina1.png"
+              alt="Dona Regina mexendo no celular"
+            />
+            <div class="flexRow cardVantagens">
+              <div class="miniCard">
+                <img src="./src/img/Vantagens01.png" alt="estrelinha bemol" />
+                <span>Acúmulo de pontos de bônus</span>
+              </div>
+              <div class="miniCard">
+                <img src="./src/img/Vantagens02.png" alt="ícone usuário" />
+                <span>Atendimento nas Lojas</span>
+              </div>
+              <div class="miniCard">
+                <img src="./src/img/Vantagens03.png" alt="ícone Bemol" />
+                <span>Pagamento de parcelas Bemol</span>
+              </div>
+              <div class="miniCard">
+                <img src="./src/img/Vantagens04.png" alt="Banco Bemol" />
+                <span>Depósito nas Lojas Bemol e Bemol Farma</span>
+              </div>
+              <div class="miniCard">
+                <img
+                  src="./src/img/Vantagens05.png"
+                  alt="imagem que simboliza vazio"
+                />
+                <span>Zero anuidade</span>
+              </div>
+              <div class="miniCard">
+                <img src="./src/img/Vantagens06.png" alt="ícone Pix" />
+                <span>Tranferencias via PIX</span>
+              </div>
+            </div>
+          </div>
+        </section>
 
-           <!-- TERCEIRA SEÇÃO -->
-            <section>
-                <div>
-                    <img src="./src/img/Estrela Titulo.png" alt="Estrela Bemol">
-                </div>
-                <div>
-                    <p>Com saldo em conta, você acumula pontos de bônus Bemol todos os dias.</p>
-                    <img src="./src/img/Acumulo Pontos Bonus.png" alt="informações de pontuação de bônus">
-                </div>
-            </section>
+        <!-- TERCEIRA SEÇÃO -->
+        <section class="thirdSection flexRow">
+          <div class="thirdSectionTitle">
+            <img src="./src/img/Estrela Titulo.png" alt="Estrela Bemol" />
+          </div>
+          <div class="thirdSectionDescription">
+            <p>
+              Com saldo em conta, você acumula pontos de bônus Bemol todos os
+              dias.
+            </p>
+            <img
+              src="./src/img/Acumulo Pontos Bonus.png"
+              alt="informações de pontuação de bônus"
+            />
+          </div>
+        </section>
 
-            <!-- QUARTA SEÇÃO -->
-            <section>
-                <img src="./src/img/Ganho Pontos Bonus.png" alt="Informações para pontuação extra">
-            </section>
+        <!-- QUARTA SEÇÃO -->
+        <section>
+          <img
+            src="./src/img/Ganho Pontos Bonus.png"
+            alt="Informações para pontuação extra"
+          />
+        </section>
 
-            <!-- QUINTA SEÇÃO -->
-            <section>
-                <div>
-                    <h3>Simulador de Bônus Bemol</h3>
-                    <div>
-                        <div>
-                            <label for="valorInput">Valor</label>
-                            <input name="valorInput" type="text" placeholder="Coloque o valor aqui">
-                            <span>A cada R$ 40,00 você ganha 1 ponto de Bônus Bemol</span>
-                        </div>
-                        <div>
-                            <label for="tempoInput">Tempo</label>
-                            <input name="tempoInput" type="range" min="0" max="12">
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <span>Você vai ganhar por dia:</span>
-                        <div>
-                            <img src="./src/img/estrela-calculadora.png" alt="estrelinha bemol">
-                            <span>0</span>
-                        </div>
-                    </div>
-                    <div>
-                        <span>pontos de Bônus Bemol em meses:</span>
-                        <div>
-                            <img src="./src/img/Estrelas.png" alt="3 estrelinhas bemol">
-                            <span>0</span>
-                        </div>
-                        <span>pontos de Bônus Bemol</span>
-                    </div>
-                </div>
-            </section>
+        <!-- QUINTA SEÇÃO -->
+        <section>
+          <div>
+            <h3>Simulador de Bônus Bemol</h3>
+            <div>
+              <div>
+                <label for="valorInput">Valor</label>
+                <input
+                  name="valorInput"
+                  type="text"
+                  placeholder="Coloque o valor aqui"
+                />
+                <span>A cada R$ 40,00 você ganha 1 ponto de Bônus Bemol</span>
+              </div>
+              <div>
+                <label for="tempoInput">Tempo</label>
+                <input name="tempoInput" type="range" min="0" max="12" />
+              </div>
+            </div>
+          </div>
+          <div>
+            <div>
+              <span>Você vai ganhar por dia:</span>
+              <div>
+                <img
+                  src="./src/img/estrela-calculadora.png"
+                  alt="estrelinha bemol"
+                />
+                <span>0</span>
+              </div>
+            </div>
+            <div>
+              <span>pontos de Bônus Bemol em meses:</span>
+              <div>
+                <img src="./src/img/Estrelas.png" alt="3 estrelinhas bemol" />
+                <span>0</span>
+              </div>
+              <span>pontos de Bônus Bemol</span>
+            </div>
+          </div>
+        </section>
 
-            <!-- SEXTA SEÇÃO -->
-            <section>
-                <h3>Descubra como é fácil simplificar sua vida financeira.</h3>
-                <div>
-                    <a href="https://www.bemol.com.br/contabemol" target="_blank">Abra sua Conta Bemol</a>
-                    <a href="https://www.bemol.com.br/faq-contabemol" target="_blank">Perguntas Frequentes</a>
-                </div>
-            </section>
-       </div> 
+        <!-- SEXTA SEÇÃO -->
+        <section>
+          <h3>Descubra como é fácil simplificar sua vida financeira.</h3>
+          <div>
+            <a href="https://www.bemol.com.br/contabemol" target="_blank"
+              >Abra sua Conta Bemol</a
+            >
+            <a href="https://www.bemol.com.br/faq-contabemol" target="_blank"
+              >Perguntas Frequentes</a
+            >
+          </div>
+        </section>
+      </div>
     </main>
     <footer>
-        <img src="./src/img/redes-sociais 1.png" alt="Redes Sociais">
-        <img src="./src/img/conta-bemol-e-bemol 1.png" alt="Logos Bemol">
+      <img src="./src/img/redes-sociais 1.png" alt="Redes Sociais" />
+      <img src="./src/img/conta-bemol-e-bemol 1.png" alt="Logos Bemol" />
     </footer>
-</body>
+  </body>
 </html>
