@@ -14,16 +14,16 @@
   align-items: center;
 }
 
+/* BODY*/
 body {
   height: 100vh;
   font-family: "Montserrat", sans-serif;
 }
 
 /* HEADER */
-
 header {
   background-color: #4864c0;
-  max-height: 200px;
+  height: 200px;
 }
 
 .logoBemol {
@@ -44,9 +44,11 @@ h1 {
   margin-bottom: 20px;
 }
 
-/* PRIMEIRA SECAO */
+/* MAIN- PRIMEIRA SECAO */
 .firstSection {
-  margin-top: 30px;
+  /*  inserir altura da main de 660 px*/
+  /* margin-top: 30px;*/
+  height: 660px;
 }
 
 .firstSection p {
@@ -76,8 +78,16 @@ h1 {
   text-align: center;
 }
 
-/* SEGUNDA SECAO */
+.linkAbrirConta:hover {
+  /* inserir hover no botao*/
+  background-color: #4864c0;
+  color: #ffc04a;
+}
 
+.mainPhoneImage {
+  max-width: 264px;
+}
+/* SEGUNDA SECAO */
 .secondSection {
   max-width: 1200px;
   max-height: 699px;
@@ -85,9 +95,9 @@ h1 {
 }
 
 .secondSection h6 {
-  width: 500px;
+  width: 415px;
   color: #1d2f8a;
-  margin-left: 45px;
+  margin-left: 15px;
 }
 
 .reginaImg {
@@ -108,14 +118,16 @@ h1 {
 }
 
 .miniCard span {
+  /* alinhamento a esquerda e color*/
   display: block;
   font-size: 16px;
   font-weight: 700;
   line-height: 21px;
   letter-spacing: 0em;
-  text-align: center;
+  text-align: left;
   max-width: 218px;
   height: 52px;
+  color: #1d2f8a;
 }
 
 /* TERCEIRA SECAO */
@@ -151,3 +163,5 @@ h1 {
   text-align: left;
   margin-bottom: 60px;
 }
+
+/*QUARTA SECAO*/
