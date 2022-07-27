@@ -87,6 +87,7 @@ h1 {
 .mainPhoneImage {
   max-width: 264px;
 }
+
 /* SEGUNDA SECAO */
 .secondSection {
   max-width: 1200px;
@@ -131,7 +132,6 @@ h1 {
 }
 
 /* TERCEIRA SECAO */
-
 .thirdSection {
   background-color: #4864c0;
   height: 461px;
@@ -165,3 +165,170 @@ h1 {
 }
 
 /*QUARTA SECAO*/
+
+.fourthSection {
+  height: 600px;
+  width: 1120px;
+  margin: 20px auto;
+}
+
+/*QUINTA SECAO - CALCULADORA*/
+
+.fifthSection {
+  padding: 0 50px;
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#calculatorContainer,
+#simuladorTimeBox {
+  height: 468px;
+}
+
+#simulatorTimeBox {
+  display: flex;
+  align-items: center;
+}
+
+#calculatorContainer h3 {
+  height: 134px;
+  width: 647px;
+  font-size: 61px;
+  font-weight: 700;
+  line-height: 67px;
+  text-align: left;
+  color: #1d2f8a;
+  margin-bottom: 40px;
+}
+
+.simulatorBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.simulatorBox div {
+  height: 80px;
+}
+
+#inputValue {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 50px;
+}
+
+/* verificar */
+/*
+.valorInputSpan {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  background-color: #ffc04a;
+}*/
+
+#inputValue input {
+  height: 60px;
+  width: 416px;
+  border: none;
+  border-bottom: 2px solid #1d2f8a;
+  margin-bottom: 15px;
+}
+
+#inputValue span {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 17px;
+  text-align: left;
+  color: #0a102e;
+  height: 17px;
+  width: 341px;
+  margin-bottom: 15px;
+}
+
+.containerSimulatorBox {
+  height: 307px;
+  width: 434px;
+  background-color: #1d2f8a;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 70px;
+  padding: 20px;
+}
+
+.estilizacaoSpan {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
+  text-align: left;
+  color: #ffffff;
+}
+
+/*SEXTA SECAO */
+
+.sixthSection {
+  height: 188px;
+  width: 1140px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.sixthSection h3 {
+  font-size: 39px;
+  font-weight: 700;
+  line-height: 51px;
+  text-align: left;
+  color: #1d2f8a;
+  width: 607px;
+}
+
+.containerButtons {
+  height: 188px;
+  width: 513px;
+  padding: 10px;
+}
+
+.linkFaq {
+  width: 336px;
+  border-radius: 10px;
+  padding: 16px 24px 16px 24px;
+  border: 3px solid #ffc04a;
+  color: #1d2f8a;
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 30px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.linkFaq:hover {
+  background-color: #ffc04a;
+  border-color: #1d2f8a;
+}
+
+footer {
+  background-color: #4864c0;
+  border-radius: 45px 45px 0 0;
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.imgRedes {
+  height: 96px;
+  width: 289px;
+}
+
+.imgLogos {
+  height: 102px;
+  width: 590px;
+}

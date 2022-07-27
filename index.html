@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./src/styles/styles.css" />
@@ -122,48 +122,59 @@
     <section class="fifthSection">
       <div id="calculatorContainer">
         <h3>Simulador de Bônus Bemol</h3>
-        <div class="simulatorBox">
-          <div id="inputValue">
-            <label for="valorInput">Valor</label>
-            <input
-              name="valorInput"
-              type="text"
-              placeholder="Coloque o valor aqui"
-            />
-            <span>A cada R$ 40,00 você ganha 1 ponto de Bônus Bemol</span>
-          </div>
-          <div id="timeInput">
-            <label for="tempoInput">Tempo</label>
-            <input name="tempoInput" type="range" min="0" max="12" />
-          </div>
+        
+         
+            <div id="inputValue">
+              <label class="valorInputSpan" for="valorInput">Valor</label>
+              <input
+                name="valorInput"
+                type="text"
+                placeholder="Coloque o valor aqui"
+              />
+              <span>A cada R$ 40,00 você ganha 1 ponto de Bônus Bemol</span>
+            </div>
+            <div id="timeInput">
+              <label for="tempoInput">Tempo</label>
+              <input name="tempoInput" type="range" min="0" max="12" />
+            </div>
         </div>
       </div>
       <div id="simuladorTimeBox">
-        <div id="simuladorDay">
-          <span>Você vai ganhar por dia:</span>
-          <div class="points">
-            <img
-              src="./src/img/estrela-calculadora.png"
-              alt="estrelinha bemol"
-            />
-            <span>0</span>
+        <div class="containerSimulatorBox">
+          <div id="simuladorDay">
+            <span class="estilizacaoSpan">Você vai ganhar por dia:</span>
+           <!-- <div class="points">--> 
+             <!--  <img
+                src="./src/img/estrela-calculadora.png"
+                alt="estrelinha bemol"
+              />-->
+              <span>0</span>
+            </div>
+
+            <span class="estilizacaoSpan">pontos de Bônus Bemol em meses:</span>
+            <span  class="estilizacaoSpan">pontos de Bônus Bemol</span>
+            <div>
+             <!--<img src="./src/img/Estrelas.png" alt="3 estrelinhas bemol" />--> 
+              <span>0</span>
+            </div>
+           
           </div>
-        </div>
+         
+       
         <div>
-          <span>pontos de Bônus Bemol em meses:</span>
-          <div>
-            <img src="./src/img/Estrelas.png" alt="3 estrelinhas bemol" />
-            <span>0</span>
-          </div>
-          <span>pontos de Bônus Bemol</span>
+          
         </div>
+      </div>
       </div>
     </section>
 
     <!-- SEXTA SEÇÃO -->
-    <section class="sixthSection">
-      <h3>Descubra como é fácil simplificar sua vida financeira.</h3>
+    <section class="sixthSection flexRow">
       <div>
+        <h3>Descubra como é fácil simplificar sua vida financeira.</h3>
+      </div>
+
+      <div class="containerButtons">
         <a
           class="flexRow linkAbrirConta"
           href="https://www.bemol.com.br/contabemol"
