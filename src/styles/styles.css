@@ -6,6 +6,12 @@
   align-items: center;
 }
 
+.flexRowSpaceAround {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .flexColumn {
   display: flex;
   flex-direction: column;
@@ -175,7 +181,6 @@ h1 {
 /*QUINTA SECAO - CALCULADORA*/
 
 .fifthSection {
-  padding: 0 50px;
   max-width: 1200px;
   margin: 50px auto;
   padding: 0 20px;
@@ -207,7 +212,8 @@ h1 {
   margin-bottom: 20px;
 }
 
-#inputValue input { /*mostrar essas alterações*/
+#inputValue input {
+  /*mostrar essas alterações*/
   height: 50px;
   width: 416px;
   border: none;
@@ -219,17 +225,18 @@ h1 {
 }
 
 #inputValue span {
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 400;
   line-height: 17px;
   text-align: left;
   color: #0a102e;
   height: 17px;
-  width: 341px;
+  width: 350px;
   margin-bottom: 15px;
 }
 
-#timeInput { /*alterações no container tempo*/
+#timeInput {
+  /*alterações no container tempo*/
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -241,11 +248,12 @@ h1 {
   color: #1d2f8a;
 }
 
-#timeInput input { 
+#timeInput input {
   width: 416px;
 }
 
-.simulatorButton { /*estilização do button*/
+.simulatorButton {
+  /*estilização do button*/
   border-radius: 10px;
   padding: 2px 5px;
   border: 2px solid #ffc04a;
@@ -270,15 +278,17 @@ h1 {
 .containerSimulatorBox {
   height: 307px;
   width: 434px;
-  background-color: #4864C0;
+  background-color: #4864c0;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: space-evenly;
-  padding: 20px;
+  padding: 30px;
+  border-radius: 4px;
 }
 
-#simulatorDay, #simulatorMonth {
+#simulatorDay,
+#simulatorMonth {
   width: 100%;
 }
 
@@ -301,14 +311,31 @@ h1 {
   padding-bottom: 15px;
 }
 
+.starsDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 350px;
+}
 
+.starsDiv span {
+  height: 65px;
+  width: 33px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 65px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.estilizac
 /*SEXTA SECAO */
 
 .sixthSection {
   height: 188px;
   width: 1140px;
   margin: 0 auto;
-  margin-bottom: 30px;
+  margin: 30px;
 }
 
 .sixthSection h3 {
@@ -317,7 +344,7 @@ h1 {
   line-height: 51px;
   text-align: left;
   color: #1d2f8a;
-  width: 607px;
+  width: 500px;
 }
 
 .containerButtons {
