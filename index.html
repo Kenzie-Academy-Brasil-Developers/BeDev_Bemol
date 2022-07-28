@@ -135,32 +135,40 @@
             </div>
             <div id="timeInput">
               <label for="tempoInput">Tempo</label>
-              <input name="tempoInput" type="range" min="0" max="12" />
+              <span class="contagemTempo">0</span> <!--adicionado -->
+              <input class="inputSlideTempo" name="tempoInput" type="range" min="0" max="12" />
             </div>
+            <button type="button" class="simulatorButton">Simular</button> <!--adicionado -->
         </div>
       </div>
+
+
       <div id="simuladorTimeBox">
         <div class="containerSimulatorBox">
-          <div id="simuladorDay">
+          <div id="simulatorDay">
             <span class="estilizacaoSpan">Você vai ganhar por dia:</span>
-           <!-- <div class="points">--> 
-             <!--  <img
-                src="./src/img/estrela-calculadora.png"
-                alt="estrelinha bemol"
-              />-->
-              <span>0</span>
-            </div>
-
-            <span class="estilizacaoSpan">pontos de Bônus Bemol em meses:</span>
-            <span  class="estilizacaoSpan">pontos de Bônus Bemol</span>
-            <div>
-             <!--<img src="./src/img/Estrelas.png" alt="3 estrelinhas bemol" />--> 
-              <span>0</span>
-            </div>
-           
+            <div class="points pointsDivOne">
+              <div class="starsDiv">
+                <img
+                 src="./src/img/PontosBonus 1.png"
+                 alt="estrelinha bemol">
+               <span>0</span>
+              </div>
+              <span  class="estilizacaoSpan">pontos de Bônus Bemol</span>
+            </div> 
           </div>
-         
-       
+
+          <div id="simulatorMonth">
+            <span class="estilizacaoSpan">pontos de Bônus Bemol em meses:</span>
+            <div class="points">
+              <div class="starsDiv">
+                <img src="./src/img/Estrelas.png" alt="3 estrelinhas bemol" /> 
+                <span>0</span>
+              </div>
+              <span  class="estilizacaoSpan">pontos de Bônus Bemol</span>
+            </div>
+          </div>
+
         <div>
           
         </div>
@@ -202,5 +210,6 @@
         alt="Logos Bemol"
       />
     </footer>
+    <script src="./src/js/script.js"></script>
   </body>
 </html>

@@ -180,18 +180,12 @@ h1 {
   margin: 50px auto;
   padding: 0 20px;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: space-between;
 }
 
-#calculatorContainer,
-#simuladorTimeBox {
+#calculatorContainer {
   height: 468px;
-}
-
-#simulatorTimeBox {
-  display: flex;
-  align-items: center;
 }
 
 #calculatorContainer h3 {
@@ -205,40 +199,23 @@ h1 {
   margin-bottom: 40px;
 }
 
-.simulatorBox {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.simulatorBox div {
-  height: 80px;
-}
-
 #inputValue {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
-/* verificar */
-/*
-.valorInputSpan {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 22px;
-  text-align: left;
-  background-color: #ffc04a;
-}*/
-
-#inputValue input {
-  height: 60px;
+#inputValue input { /*mostrar essas alterações*/
+  height: 50px;
   width: 416px;
   border: none;
   border-bottom: 2px solid #1d2f8a;
   margin-bottom: 15px;
+  outline: none;
+  font-size: 25px;
+  color: #1d2f8a;
 }
 
 #inputValue span {
@@ -252,16 +229,57 @@ h1 {
   margin-bottom: 15px;
 }
 
+#timeInput { /*alterações no container tempo*/
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+}
+
+#timeInput span {
+  font-size: 25px;
+  color: #1d2f8a;
+}
+
+#timeInput input { 
+  width: 416px;
+}
+
+.simulatorButton { /*estilização do button*/
+  border-radius: 10px;
+  padding: 2px 5px;
+  border: 2px solid #ffc04a;
+  color: #1d2f8a;
+  font-weight: 700;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.simulatorButton:hover {
+  border-color: #1d2f8a;
+  opacity: 60%;
+}
+
+#simulatorTimeBox {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
 .containerSimulatorBox {
   height: 307px;
   width: 434px;
-  background-color: #1d2f8a;
+  background-color: #4864C0;
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: center;
-  margin-top: 70px;
+  justify-content: space-evenly;
   padding: 20px;
+}
+
+#simulatorDay, #simulatorMonth {
+  width: 100%;
 }
 
 .estilizacaoSpan {
@@ -271,6 +289,18 @@ h1 {
   text-align: left;
   color: #ffffff;
 }
+
+.points {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.pointsDivOne {
+  border-bottom: 2px solid #fff;
+  padding-bottom: 15px;
+}
+
 
 /*SEXTA SECAO */
 
