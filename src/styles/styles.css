@@ -26,10 +26,15 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+.container {
+  width: 90vw;
+  margin: auto;
+}
+
 /* HEADER */
 header {
   background-color: #4864c0;
-  height: 200px;
+  height: 180px;
 }
 
 .logoBemol {
@@ -37,7 +42,7 @@ header {
   max-height: 150px;
   width: auto;
   height: auto;
-  margin: 40px 0px 40px 140px;
+  margin: 30px 0px 30px 130px;
 }
 
 h1 {
