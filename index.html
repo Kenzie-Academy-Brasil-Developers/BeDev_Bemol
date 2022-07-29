@@ -128,16 +128,17 @@
               <div id="inputValue">
                 <label class="valorInputSpan" for="valorInput">Valor</label>
                 <input
+                  id="valorInput"
                   name="valorInput"
                   type="text"
                   placeholder="R$ 0,00"
                 />
-                <span>A cada R$ 40,00 você ganha 1 ponto de Bônus Bemol</span>
+                <span>A cada R$ 40,00 você ganha 1 ponto de Bônus Bemol por dia</span>
               </div>
               <div id="timeInput">
                 <label for="tempoInput">Tempo</label>
                 <span class="contagemTempo">0 meses</span> <!--adicionado -->
-                <input class="inputSlideTempo" name="tempoInput" type="range" min="0" max="12" />
+                <input class="inputSlideTempo" name="tempoInput" type="range" min="0" max="12" value="0"/>
               </div>
               <button type="button" class="simulatorButton">Simular</button> <!--adicionado -->
           </div>
@@ -153,7 +154,7 @@
                   <img
                    src="./src/img/PontosBonus 1.png"
                    alt="estrelinha bemol">
-                 <span>0</span>
+                 <span id="pontosConquistadosDia">0</span>
                 </div>
             
               </div> 
@@ -164,7 +165,7 @@
               <div class="points">
                 <div class="starsDiv">
                   <img src="./src/img/Estrelas.png" alt="3 estrelinhas bemol" /> 
-                  <span>0</span>
+                  <span id="pontosConquistadosMes">0</span>
                 </div>
                 <span  class="estilizacaoSpan">pontos de Bônus Bemol</span>
               </div>
