@@ -54,8 +54,7 @@ function calcularPontos() {
             pontosDia.innerText = resultado
 
             let totalMensal = resultado * 30
-            pontosAcumulados = pontosAcumulados + totalMensal
-            pontosMes.innerText = pontosAcumulados
+            pontosMes.innerText = totalMensal * meses
         }
     }
 
